@@ -14,5 +14,6 @@ for i in districts:
     data.append([f"district_id :{mm.get_id()}",f"district_name:{i}",
                  f"division_id:{divs.index(mm.get_division())+1}",f"division_name:{mm.get_division()}"])
 
-add_to_terminal(data)
-show_terminal()
+
+
+
