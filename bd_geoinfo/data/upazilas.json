@@ -16,13 +16,16 @@
             "timezone": "BST",
             "established": "1980",
             "headquarter": "Agailjhara town",
-            "unions_count": 5,
+            "unions_count": 8,
             "unions": [
-                "Union1",
-                "Union2",
-                "Union3",
-                "Union4",
-                "Union5"
+                "Agailjhara Union",
+                "Bagdha Union",
+                "Chandpura Union",
+                "Dubail Union",
+                "Gaila Union",
+                "Gopalpur Union",
+                "Pangasia Union",
+                "Vatripara Union"
             ]
         },
         {
@@ -41,17 +44,19 @@
             "timezone": "BST",
             "established": "1985",
             "headquarter": "Babuganj town",
-            "unions_count": 9,
+            "unions_count": 11,
             "unions": [
-                "Shikerpur",
-                "Bamrail",
-                "Barakotha",
-                "Guthia",
-                "Harta",
-                "Jalla",
-                "Otra",
-                "Satla",
-                "Sholak"
+                "Bamna Union",
+                "Betagi Union",
+                "Char Damua Union",
+                "Chandpura Union",
+                "Charkawna Union",
+                "Daulatkhan Union",
+                "Fultala Union",
+                "Kanchanpur Union",
+                "Rasulpur Union",
+                "Srirampur Union",
+                "Uttar Badurtala Union"
             ]
         },
         {
@@ -70,22 +75,24 @@
             "timezone": "BST",
             "established": "1990",
             "headquarter": "Bakerganj town",
-            "unions_count": 14,
+            "unions_count": 16,
             "unions": [
-                "Union1",
-                "Union2",
-                "Union3",
-                "Union4",
-                "Union5",
-                "Union6",
-                "Union7",
-                "Union8",
-                "Union9",
-                "Union10",
-                "Union11",
-                "Union12",
-                "Union13",
-                "Union14"
+                "Bandar Union",
+                "Bauphal Union",
+                "Chandpura Union",
+                "Char Baria Union",
+                "Char Kalab Union",
+                "Char Manika Union",
+                "Char Sangra Union",
+                "Dhonagoda Union",
+                "Dighi Union",
+                "Galachipa Union",
+                "Jalal Union",
+                "Kawkhali Union",
+                "Laskarpur Union",
+                "Nitai Union",
+                "Shahbazpur Union",
+                "Taltoli Union"
             ]
         },
         {
@@ -104,20 +111,17 @@
             "timezone": "BST",
             "established": "1995",
             "headquarter": "Banaripara town",
-            "unions_count": 12,
+            "unions_count": 9,
             "unions": [
-                "Union1",
-                "Union2",
-                "Union3",
-                "Union4",
-                "Union5",
-                "Union6",
-                "Union7",
-                "Union8",
-                "Union9",
-                "Union10",
-                "Union11",
-                "Union12"
+                "Chandpai Union",
+                "Chorbaria Union",
+                "Durgapur Union",
+                "Horipur Union",
+                "Jalabari Union",
+                "Kashipur Union",
+                "Laskarpur Union",
+                "Nizampur Union",
+                "Sadhunia Union"
             ]
         },
         {
@@ -138,16 +142,16 @@
             "headquarter": "Barishal city",
             "unions_count": 10,
             "unions": [
-                "Union1",
-                "Union2",
-                "Union3",
-                "Union4",
-                "Union5",
-                "Union6",
-                "Union7",
-                "Union8",
-                "Union9",
-                "Union10"
+                "Baga Union",
+                "Chakhar Union",
+                "Kankaria Union",
+                "Kashipur Union",
+                "Kolkata Union",
+                "Shikarpur Union",
+                "Char Monai Union",
+                "Char Baria Union",
+                "Char Kalapara Union",
+                "Char Chandrogram Union"
             ]
         },
         {
@@ -166,15 +170,19 @@
             "timezone": "BST",
             "established": "2005",
             "headquarter": "Gournadi town",
-            "unions_count": 7,
+            "unions_count": 11,
             "unions": [
-                "Union1",
-                "Union2",
-                "Union3",
-                "Union4",
-                "Union5",
-                "Union6",
-                "Union7"
+                "Gazaria Union",
+                "Gournadi Union",
+                "Kachua Union",
+                "Patikhalghata Union",
+                "Mahilara Union",
+                "Ramchandrapur Union",
+                "Char Jagir Union",
+                "Char Kalishwar Union",
+                "Char Monai Union",
+                "Char Pata Union",
+                "Char Chandrogram Union"
             ]
         },
         {
@@ -193,16 +201,18 @@
             "timezone": "BST",
             "established": "2010",
             "headquarter": "Hizla town",
-            "unions_count": 8,
+            "unions_count": 10,
             "unions": [
-                "Union1",
-                "Union2",
-                "Union3",
-                "Union4",
-                "Union5",
-                "Union6",
-                "Union7",
-                "Union8"
+                "Bamna Union",
+                "Hizla Union",
+                "Kusumkhali Union",
+                "Kumarkhali Union",
+                "Nalian Union",
+                "Khalia Union",
+                "Panchra Union",
+                "Shahbazpur Union",
+                "Shialkathi Union",
+                "Shibpur Union"
             ]
         },
         {
@@ -221,14 +231,22 @@
             "timezone": "BST",
             "established": "2015",
             "headquarter": "Mehendiganj town",
-            "unions_count": 6,
+            "unions_count": 14,
             "unions": [
-                "Union1",
-                "Union2",
-                "Union3",
-                "Union4",
-                "Union5",
-                "Union6"
+                "Bamrail Union",
+                "Chandpasha Union",
+                "Chakhar Union",
+                "Durgapur Union",
+                "Gabura Union",
+                "Hajipur Union",
+                "Kalapara Union",
+                "Lata Union",
+                "Mehendiganj Union",
+                "Monpura Union",
+                "Pathar Union",
+                "Srinagar Union",
+                "Ujani Union",
+                "Vishnupur Union"
             ]
         },
         {
@@ -14000,6 +14018,5 @@
                 "Singari"
             ]
         }
-
     ]
 }

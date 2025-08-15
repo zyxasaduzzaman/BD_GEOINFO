@@ -1,0 +1,92 @@
+{
+    "up": [
+        {
+            "Muladi": [
+                "Bahadurpur",
+                "Chakhar",
+                "Durgapasha",
+                "Faridpur",
+                "Gobindapur",
+                "Kalashkathi",
+                "Nalua",
+                "Padri Shibpur",
+                "Rangasree",
+                "Ulania"
+            ],
+            "Wazirpur": [
+                "Alipur",
+                "Bagerhat",
+                "Char Baria",
+                "Dakshin Bariara",
+                "Gazaria",
+                "Jhalokathi",
+                "Rasulpur",
+                "Uttar Bariara"
+            ],
+            "Amtali": [
+                "Amragachia",
+                "Amtali",
+                "Atharagashia",
+                "Chiringa",
+                "Durgapur",
+                "Jaliapara",
+                "Patalia",
+                "Sreepur"
+            ],
+            "Bamna": [
+                "Bamna",
+                "Baribaria",
+                "Chhagalnaiya",
+                "Durgapasha",
+                "Hazariganj",
+                "Nalchira",
+                "Rasulpur"
+            ],
+            "Barguna Sadar": [
+                "Bamna",
+                "Barguna",
+                "Betagi",
+                "Chandpasha",
+                "Patharghata",
+                "Taltali"
+            ],
+            "Betagi": [
+                "Betagi",
+                "Burir Char",
+                "Charkhali",
+                "Jaliapara",
+                "Nitai"
+            ],
+            "Patharghata": [
+                "Atharagashia",
+                "Baraikhali",
+                "Char Aicha",
+                "Dakshin Char",
+                "Sadar",
+                "Uttar Char"
+            ],
+            "Taltali": [
+                "Boro Char",
+                "Chhoto Char",
+                "Chandpur",
+                "Dakshin Taltali",
+                "Sadar"
+            ],
+            "Bhola Sadar": [
+                "Borhanuddin",
+                "Char Fasson",
+                "Daulatkhan",
+                "Lalmohan",
+                "Manpura",
+                "Tazumuddin"
+            ],
+            "Borhanuddin": [
+                "Borhanuddin",
+                "Char Jahangir",
+                "Char Manika",
+                "Char Monohor",
+                "Char Quazi"
+            ]
+        }
+    ]
+}
