@@ -1,3 +1,35 @@
+Metadata-Version: 2.4
+Name: bd-geoinfo
+Version: 0.0.1
+Summary: A simple Python library for fetching geographical information about Bangladesh.
+Home-page: https://github.com/zyxasaduzzaman/BD_GEOINFO
+Author: Asaduzzaman Asad
+Author-email: zyxmdasaduzzaman@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: Bengali
+Classifier: Natural Language :: English
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: re
+Requires-Dist: json
+Requires-Dist: os
+Requires-Dist: webbrowser
+Requires-Dist: base64
+Requires-Dist: datetime
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
 # bd-geoinfo
 
 [![PyPI version](https://badge.fury.io/py/bd-geoinfo.svg)](https://pypi.org/project/bd-geoinfo/)
@@ -18,7 +50,7 @@ A simple yet powerful Python library for fetching geographical information about
 Install the library using pip to add it to your project:
 
 ```bash
-pip install --index-url https://test.pypi.org/simple/ --no-deps bd-geoinfo==0.0.1
+pip install bd-geoinfo
 
 👨‍💻 Usage
 Using this library is straightforward. Here are a few examples.
