@@ -4,7 +4,7 @@
 
 ---
 
-<img src="bn.png" alt="Logo" style="width:100%; height:auto;">
+<img src="bn.png" alt="Logo" style="width:100%; height:auto;background-color:black;">
 
 ---
 
