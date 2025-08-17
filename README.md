@@ -89,7 +89,7 @@ print(f"Division: {mymensingh.get_division()}")
 ```bash
 
 amtali = Upazila("Amtali")
-print(f"Is Upzila : {has_upazila()})
+print(f"Is Upzila : {has_upazila()}")
 
 ```
 
@@ -145,6 +145,62 @@ show_terminal()
 ```
 ---
 
+
+### 📚 Functions by Class
+
+| Class/Module | Function | Description |
+| :--- | :--- | :--- |
+| **Division** | `get_name(bn=False)` | Gets the name of the division (returns Bangla name if `bn=True`). |
+| | `get_area(unit='km')` | Returns the total area of the division in sq. km (default) or sq. miles. |
+| | `get_population()` | Returns the population of the division. |
+| | `get_website()` | Returns the official website URL of the division. |
+| | `get_festivals()` | Returns a list of major festivals. |
+| | `get_cultural_heritage()` | Returns a list of cultural heritage items. |
+| | `get_notes()` | Returns a descriptive note or extra information. |
+| | `get_established_date()` | Returns the establishment date of the division. |
+| | `get_division_data()` | Returns a dictionary with all data for the division. |
+| | `get_division_names(bn=False)` | Returns a list of all division names. |
+| | `get_districts()` | Returns a list of all districts within the division. |
+| | `get_districts_count()` | Returns the total count of districts. |
+| | `has_division()` | Checks if the division exists. |
+| **District** | `get_name(bn=False)` | Gets the name of the district (returns Bangla name if `bn=True`). |
+| | `get_area(unit='km')` | Returns the total area of the district in sq. km (default) or sq. miles. |
+| | `get_population()` | Returns the population of the district. |
+| | `get_notes()` | Returns a descriptive note about the district. |
+| | `get_festivals()` | Returns a list of festivals celebrated in the district. |
+| | `get_cultural_heritage()` | Returns a list of cultural heritage elements. |
+| | `get_division()` | Returns the division name of the district. |
+| | `get_upazilas()` | Returns a list of all upazilas within the district. |
+| | `get_upazilas_count()` | Returns the total count of upazilas. |
+| | `has_district()` | Checks if the district exists. |
+| **Upazila** | `get_name(bn=False)` | Gets the name of the upazila (returns Bangla name if `bn=True`). |
+| | `get_area(unit='km')` | Returns the total area of the upazila in sq. km (default) or sq. miles. |
+| | `get_population()` | Returns the population of the upazila. |
+| | `get_headquarter()` | Returns the headquarter name of the upazila. |
+| | `get_unions()` | Returns a list of all unions within the upazila. |
+| | `get_unions_count()` | Returns the total count of unions. |
+| | `get_district()` | Returns the district name of the upazila. |
+| | `get_division()` | Returns the division name of the upazila. |
+| | `has_upazila()` | Checks if the upazila exists. |
+| **Union** | `get_name(bn=False)` | Gets the name of the union (returns Bangla name if `bn=True`). |
+| | `get_upazila()` | Returns the upazila name of the union. |
+| | `get_district()` | Returns the district name of the union. |
+| | `get_division()` | Returns the division name of the union. |
+| | `get_full_address(bn=False)` | Returns the complete address of the union (returns Bangla address if `bn=True`). |
+| | `get_all_unions()` | Returns a list of all unions. |
+| | `has_union()` | Checks if the union exists. |
+| **Postcode** | `get_name(bn=False)` | Gets the name of the area associated with the postcode (returns Bangla name if `bn=True`). |
+| | `get_postcode()` | Returns the postcode string. |
+| | `get_upazila()` | Returns the upazila name for the postcode. |
+| | `get_district()` | Returns the district name for the postcode. |
+| | `get_division()` | Returns the division name for the postcode. |
+| | `get_full_address(bn=False)` | Returns the full address corresponding to the postcode. |
+| | `has_postcode()` | Checks if the postcode exists. |
+| **Terminal Module** | `add_to_terminal(item)` | Adds a message, image, map, or data to the terminal output. |
+| | `clear_from_terminal()` | Clears all previously added terminal messages. |
+| | `show_terminal()` | Opens a graphical window to display the terminal output. |
+
+---
 
 ### ✨ Acknowledgements
 
