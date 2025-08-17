@@ -35,5 +35,4 @@ setup(
     install_requires=read_requirements(),
     python_requires='>=3.6',
     include_package_data=True,
-    # লাইসেন্স সম্পর্কিত লাইনটি এখানে নেই
 )
