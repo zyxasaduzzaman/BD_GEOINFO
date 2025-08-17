@@ -1,3 +1,4 @@
+MANIFEST.in
 README.md
 setup.py
 bd_geoinfo/__init__.py
@@ -11,3 +12,8 @@ bd_geoinfo.egg-info/PKG-INFO
 bd_geoinfo.egg-info/SOURCES.txt
 bd_geoinfo.egg-info/dependency_links.txt
 bd_geoinfo.egg-info/top_level.txt
+bd_geoinfo/data/districts.json
+bd_geoinfo/data/divisions.json
+bd_geoinfo/data/postcodes.json
+bd_geoinfo/data/unions.json
+bd_geoinfo/data/upazilas.json

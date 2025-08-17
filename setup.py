@@ -15,7 +15,7 @@ def read_readme():
 
 setup(
     name='bd-geoinfo',
-    version='0.0.1',
+    version='0.0.2',
     author='Asaduzzaman Asad',
     author_email='zyxmdasaduzzaman@gmail.com',
     description='A simple Python library for fetching geographical information about Bangladesh.',
