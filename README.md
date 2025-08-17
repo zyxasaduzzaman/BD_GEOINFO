@@ -26,8 +26,10 @@
 * **💡 Interactive Terminal:** Use a built-in terminal viewer to display your program's output in a stylish, live-like interface.
 
 ---
-**Using this library is straightforward. Here are a few examples to get you started.**
+
 ## Installation :
+
+**Install this library from PyPI using pip:**
 
 ```bash
 pip install bd-geoinfo
@@ -35,6 +37,8 @@ pip install bd-geoinfo
 ```
 
 ## Usage :
+
+**Using this library is straightforward. Here are a few examples to get you started.**
 
 #### 🗺️ Accessing Geographical Data
 
