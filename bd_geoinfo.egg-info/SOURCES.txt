@@ -10,5 +10,4 @@ bd_geoinfo/upzilas.py
 bd_geoinfo.egg-info/PKG-INFO
 bd_geoinfo.egg-info/SOURCES.txt
 bd_geoinfo.egg-info/dependency_links.txt
-bd_geoinfo.egg-info/requires.txt
 bd_geoinfo.egg-info/top_level.txt

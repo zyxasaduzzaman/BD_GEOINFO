@@ -14,120 +14,230 @@ Classifier: Natural Language :: Bengali
 Classifier: Natural Language :: English
 Requires-Python: >=3.6
 Description-Content-Type: text/markdown
-Requires-Dist: re
-Requires-Dist: json
-Requires-Dist: os
-Requires-Dist: webbrowser
-Requires-Dist: base64
-Requires-Dist: datetime
 Dynamic: author
 Dynamic: author-email
 Dynamic: classifier
 Dynamic: description
 Dynamic: description-content-type
 Dynamic: home-page
-Dynamic: requires-dist
 Dynamic: requires-python
 Dynamic: summary
 
-# bd-geoinfo
 
-[![PyPI version](https://badge.fury.io/py/bd-geoinfo.svg)](https://pypi.org/project/bd-geoinfo/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python Version](https://img.shields.io/badge/Python-3.6%2B-blue)](https://www.python.org/)
 
-A simple yet powerful Python library for fetching geographical information about Bangladesh.
+# I LOVE MY BANGLADESH
 
-### ✨ Key Features
+---
 
-* **Comprehensive Data:** Access detailed information about divisions, districts, upazilas, unions, and postcodes (name, population, area, etc.).
-* **Bangla & English Support:** Search for and retrieve data using both Bangla and English names.
-* **Easy to Use:** Access data effortlessly with a simple and intuitive class-based interface.
-* **Terminal Viewer:** Visualize your output directly in a stylish HTML window using a built-in terminal function.
+<img src="bn.png" alt="Logo" style="width:100%; height:auto;background-color:black;">
 
-### 🚀 Installation
+---
 
-Install the library using pip to add it to your project:
+# Package Name : bd-geoinfo
+
+---
+[![PyPI version](https://badge.fury.io/py/bd-geoinfo.svg)](https://pypi.org/project/bd-geoinfo/) [![Python Version](https://img.shields.io/badge/Python-3.6%2B-blue)](https://www.python.org/) [![Developer Facebook](https://img.shields.io/badge/Facebook-magenta)](https://www.facebook.com/zyxasaduzzaman) [![Developer Facebook](https://img.shields.io/badge/LinkedIn-orange)](https://www.linkedin.com/in/asaduzzaman-asad-801a80323/)
+
+**A simple yet powerful Python library for fetching comprehensive geographical information about Bangladesh.**
+
+### Key Features :
+
+* **🔍 Data Search:** Easily find detailed information on divisions, districts, upazilas, unions, and postcodes.
+
+* **🌐 Multilingual Support:** Access data using both Bangla and English geographical names.
+
+* **📊 Detailed Information:** Get population, area, and other relevant data for each location.
+
+* **💡 Interactive Terminal:** Use a built-in terminal viewer to display your program's output in a stylish, live-like interface.
+
+---
+
+## Installation :
+
+**Install this library from PyPI using pip:**
 
 ```bash
 pip install bd-geoinfo
 
-👨‍💻 Usage
-Using this library is straightforward. Here are a few examples.
+```
 
-Getting Division Info
-from bd_geoinfo import Division
+## Usage :
+
+**Using this library is straightforward. Here are a few examples to get you started.**
+
+#### 🗺️ Accessing Geographical Data
+
+```bash
+
+from bd_geoinfo import Division, District, Upazila, Union, Postcode
+
+```
+
+##### Or
+
+
+```bash
+
+from bd_geoinfo import *
+
+```
+
+---
+
+**Get Information About Division**
+
+```bash
 
 dhaka = Division("Dhaka")
-if dhaka.has_division():
-    print(f"Name (EN): {dhaka.get_name()}")
-    print(f"Name (BN): {dhaka.get_name(bn=True)}")
-    print(f"Area: {dhaka.get_area()} sq km")
-    print(f"Districts: {dhaka.get_districts()}")
+print(f"Name (BN): {dhaka.get_name()}")
+print(f"All Division name {dhaka.get_division_names()}")
 
 
-Getting District Info
+```
 
-from bd_geoinfo import District
+---
 
-sylhet = District("সিলেট")
-if sylhet.has_district():
-    print(f"Name (EN): {sylhet.get_name()}")
-    print(f"Division: {sylhet.get_division()}")
-    print(f"Upazilas: {sylhet.get_upazilas()}")
+**Get Information About District**
 
-Getting Upazila Info
+```bash
 
-from bd_geoinfo import Upazila
+mymensingh = District("Mymensingh")
+print(f"Name (EN): {mymensingh.get_name()}")
+print(f"Division: {mymensingh.get_division()}")
+
+```
+
+---
+
+**Get Information About Upazila**
+
+```bash
 
 amtali = Upazila("Amtali")
-if amtali.has_upazila():
-    print(f"Name (BN): {amtali.get_name(bn=True)}")
-    print(f"District: {amtali.get_district()}")
-    print(f"Unions Count: {amtali.get_unions_count()}")
+print(f"Is Upzila : {has_upazila()}")
 
-Getting Union Info
+```
 
-from bd_geoinfo import Union
+---
+
+**Get Information About Union**
+
+```bash
 
 burirchar = Union("Burirchar Union")
-if burirchar.has_union():
-    print(f"Name (EN): {burirchar.get_name()}")
-    print(f"Full Address (BN): {burirchar.get_full_address(bn=True)}")
+print(burirchar.get_upazila())
 
-Getting Postcode Info
+```
 
-from bd_geoinfo import Postcode
+---
+
+**Get Information About Postcode**
+
+```bash
 
 postcode = Postcode("8710")
-if postcode.has_postcode():
-    print(f"Area: {postcode.get_name(bn=True)}")
-    print(f"Upazila: {postcode.get_upazila()}")
-    print(f"District: {postcode.get_district()}")
-    print(f"Division: {postcode.get_division()}")
+print(f"Area Name: {postcode.get_name()}")
+print(f"Upazila: {postcode.get_upazila()}")
 
-Using the Terminal Viewer
-To view your data in a stylish terminal window, use these functions:
+```
 
-from bd_geoinfo import add_to_terminal, show_terminal
+---
 
-add_to_terminal("Welcome to BD-GeoInfo Terminal!")
-add_to_terminal("Checking Sylhet division info...")
+#### 🖥️ Interactive Terminal Viewer
 
-# Pass any data to add_to_terminal()
-from bd_geoinfo import Division
-sylhet_div = Division("Sylhet")
-add_to_terminal(sylhet_div.get_division_data())
+**Use these built-in functions to display your output more attractively. This is especially useful for visualizing data in a clean, terminal-like format.**
 
-# Show all the data
+```bash
+from bd_geoinfo import Division, add_to_terminal, show_terminal, clear_from_terminal
+
+# Clear the terminal output
+clear_from_terminal()
+
+# Add a welcome message
+add_to_terminal("Welcome to the BD-GeoInfo Terminal!")
+add_to_terminal("Fetching data for Sylhet Division...")
+
+# Create a Division object
+sylhet_division = Division("Sylhet")
+
+# Add the division's data to the terminal
+add_to_terminal(sylhet_division.get_division_data())
+add_to_terminal("Data loaded successfully.")
+
+# Display the terminal window
 show_terminal()
 
-🤝 Contribution
-Your contributions are always welcome! If you have any feature requests, bug reports, or code suggestions, feel free to submit a Pull Request or open an Issue.
+```
+---
 
-### 📂 Data Source
 
-All geographical information within this library is included as static JSON files within the package itself. This data is stored in the `bd-geoinfo/data/` folder. If you find any inaccuracies or need to add new data, please feel free to submit an issue or a Pull Request.
+### 📚 Functions by Class
 
-📜 License
-This project is licensed under the [MIT] License.
+| Class/Module | Function | Description |
+| :--- | :--- | :--- |
+| **Division** | `get_name(bn=False)` | Gets the name of the division (returns Bangla name if `bn=True`). |
+| | `get_area(unit='km')` | Returns the total area of the division in sq. km (default) or sq. miles. |
+| | `get_population()` | Returns the population of the division. |
+| | `get_website()` | Returns the official website URL of the division. |
+| | `get_festivals()` | Returns a list of major festivals. |
+| | `get_cultural_heritage()` | Returns a list of cultural heritage items. |
+| | `get_notes()` | Returns a descriptive note or extra information. |
+| | `get_established_date()` | Returns the establishment date of the division. |
+| | `get_division_data()` | Returns a dictionary with all data for the division. |
+| | `get_division_names(bn=False)` | Returns a list of all division names. |
+| | `get_districts()` | Returns a list of all districts within the division. |
+| | `get_districts_count()` | Returns the total count of districts. |
+| | `has_division()` | Checks if the division exists. |
+| **District** | `get_name(bn=False)` | Gets the name of the district (returns Bangla name if `bn=True`). |
+| | `get_area(unit='km')` | Returns the total area of the district in sq. km (default) or sq. miles. |
+| | `get_population()` | Returns the population of the district. |
+| | `get_notes()` | Returns a descriptive note about the district. |
+| | `get_festivals()` | Returns a list of festivals celebrated in the district. |
+| | `get_cultural_heritage()` | Returns a list of cultural heritage elements. |
+| | `get_division()` | Returns the division name of the district. |
+| | `get_upazilas()` | Returns a list of all upazilas within the district. |
+| | `get_upazilas_count()` | Returns the total count of upazilas. |
+| | `has_district()` | Checks if the district exists. |
+| **Upazila** | `get_name(bn=False)` | Gets the name of the upazila (returns Bangla name if `bn=True`). |
+| | `get_area(unit='km')` | Returns the total area of the upazila in sq. km (default) or sq. miles. |
+| | `get_population()` | Returns the population of the upazila. |
+| | `get_headquarter()` | Returns the headquarter name of the upazila. |
+| | `get_unions()` | Returns a list of all unions within the upazila. |
+| | `get_unions_count()` | Returns the total count of unions. |
+| | `get_district()` | Returns the district name of the upazila. |
+| | `get_division()` | Returns the division name of the upazila. |
+| | `has_upazila()` | Checks if the upazila exists. |
+| **Union** | `get_name(bn=False)` | Gets the name of the union (returns Bangla name if `bn=True`). |
+| | `get_upazila()` | Returns the upazila name of the union. |
+| | `get_district()` | Returns the district name of the union. |
+| | `get_division()` | Returns the division name of the union. |
+| | `get_full_address(bn=False)` | Returns the complete address of the union (returns Bangla address if `bn=True`). |
+| | `get_all_unions()` | Returns a list of all unions. |
+| | `has_union()` | Checks if the union exists. |
+| **Postcode** | `get_name(bn=False)` | Gets the name of the area associated with the postcode (returns Bangla name if `bn=True`). |
+| | `get_postcode()` | Returns the postcode string. |
+| | `get_upazila()` | Returns the upazila name for the postcode. |
+| | `get_district()` | Returns the district name for the postcode. |
+| | `get_division()` | Returns the division name for the postcode. |
+| | `get_full_address(bn=False)` | Returns the full address corresponding to the postcode. |
+| | `has_postcode()` | Checks if the postcode exists. |
+| **Terminal Module** | `add_to_terminal(item)` | Adds a message, image, map, or data to the terminal output. |
+| | `clear_from_terminal()` | Clears all previously added terminal messages. |
+| | `show_terminal()` | Opens a graphical window to display the terminal output. |
+
+---
+
+### ✨ Acknowledgements
+
+**A big thank you to the following people who helped make this project a reality by collecting data:**
+
+* **Naim Islam:** For providing your  valuabel time.**--Mnt(TPI)**
+* **Monir:** For providing your valuabel time.**--RAC(TPI)**
+* **Habib:**  For providing your valuabel time.**--FOOD(TPI)**
+
+---
+
+### Contribution
+
+**Your contributions are highly valued! If you have any feature requests, bug reports, or code suggestions, please feel free to submit a Pull Request or open an Issue on the GitHub repository.**
+
