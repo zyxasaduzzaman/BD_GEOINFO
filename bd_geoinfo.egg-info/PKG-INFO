@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: bd-geoinfo
-Version: 0.0.2
+Version: 0.0.3
 Summary: A simple Python library for fetching geographical information about Bangladesh.
 Home-page: https://github.com/zyxasaduzzaman/BD_GEOINFO
 Author: Asaduzzaman Asad

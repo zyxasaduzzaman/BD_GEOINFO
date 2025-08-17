@@ -1,1 +1,2 @@
 include bd_geoinfo/data/*.json
+include bd_geoinfo/terminal.html

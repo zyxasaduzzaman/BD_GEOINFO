@@ -5,6 +5,7 @@ bd_geoinfo/__init__.py
 bd_geoinfo/districts.py
 bd_geoinfo/divisions.py
 bd_geoinfo/postcodes.py
+bd_geoinfo/terminal.html
 bd_geoinfo/terminal.py
 bd_geoinfo/unions.py
 bd_geoinfo/upzilas.py
